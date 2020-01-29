@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'AudiowideRegular';
+    src: url('../fonts/AudiowideRegular.eot');
+    src: url('../fonts/AudiowideRegular.eot') format('embedded-opentype'),
+         url('../fonts/AudiowideRegular.woff2') format('woff2'),
+         url('../fonts/AudiowideRegular.woff') format('woff'),
+         url('../fonts/AudiowideRegular.ttf') format('truetype'),
+         url('../fonts/AudiowideRegular.svg#AudiowideRegular') format('svg');
+}
+@font-face {
+    font-family: 'Arialregular';
+    src: url('../fonts/Arialregular.eot');
+    src: url('../fonts/Arialregular.eot') format('embedded-opentype'),
+         url('../fonts/Arialregular.woff2') format('woff2'),
+         url('../fonts/Arialregular.woff') format('woff'),
+         url('../fonts/Arialregular.ttf') format('truetype'),
+         url('../fonts/Arialregular.svg#Arialregular') format('svg');
+}
