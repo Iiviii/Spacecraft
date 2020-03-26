@@ -1,0 +1,17 @@
+@mixin test($justify:center, $align:center){
+    justify-content: $justify;
+    align-content: $align;
+}
+// @include test(space-between, center)
+//  @include test(); <- defoult
+
+@mixin border ($size, $type, $color){
+    @if $size > 4 {
+        $type:dashed;
+    } @else if $size > 2 {
+        $type:dotted;
+    } @else{
+        $type:solid;
+    }
+    border: $size, $type, $color;
+}

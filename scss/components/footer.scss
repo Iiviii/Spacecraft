@@ -1,0 +1,31 @@
+.footer1{
+    height: 85px;
+    background-color: #a3a3a3;
+}
+.footer-p1{
+    margin-right: 45px;
+    text-transform: uppercase;
+    color: $white-color;
+    font-size: 23px;
+    text-align: center;
+    line-height: 85px;    
+}
+.footer-ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-li{
+    margin: 23px 15px 10px 15px;
+    color: $white-color;
+}
+.footer-li:hover{
+    opacity: 0.6;
+}
+.footer-p{
+    text-transform: uppercase;
+    color: $black-color;
+    font-size: 12px;
+    text-align: center;
+    line-height: 85px;  
+    background-color: $white-color;  
+}

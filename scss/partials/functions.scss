@@ -1,0 +1,6 @@
+@function em($px, $fontSize:16){
+    @return #{$px/$fontSize}em;
+}
+
+// font-size: em(24);
+// padding: em(15, აქ ფონტის ზომაც უნდა გადავცეთ :დ ? 24);
